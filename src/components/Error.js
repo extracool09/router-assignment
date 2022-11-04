@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 
 const Error = () => {
     return (
-      <section className='section'>
-        <h2>404</h2>
-        <p>Page not found</p>
+      <section className='ErrorPage' id='err'>
+        <h2 className='err'>404</h2>
+        <p className='errp'>Page not found</p>
         <Link to='/' className='btn'>Back to Home Page</Link>
       </section>
     );
